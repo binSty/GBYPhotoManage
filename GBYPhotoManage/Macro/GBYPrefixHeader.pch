@@ -1,0 +1,17 @@
+//
+//  GBYPrefixHeader.pch
+//  GBYPhotoManage
+//
+//  Created by YD_Dev_BinY on 2022/2/9.
+//
+
+#ifndef GBYPrefixHeader_pch
+#define GBYPrefixHeader_pch
+
+#import "GBYHeader.h"
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import "GBYSystemPermissionsManage.h"
+#import "UIView+GBYToastView.h"
+
+#endif /* GBYPrefixHeader_pch */

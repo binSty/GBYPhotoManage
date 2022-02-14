@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D563E40091540BB023BC450 /* libPods-GBYPhotoManage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 825E28917BDEEE271A2C8BEE /* libPods-GBYPhotoManage.a */; };
+		C108AC4027B60BE400405F52 /* GBYPickerLimitedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C108AC3F27B60BE400405F52 /* GBYPickerLimitedViewController.m */; };
+		C108AC4327B63F3A00405F52 /* GBYCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C108AC4227B63F3A00405F52 /* GBYCustomCameraViewController.m */; };
+		C108AC4A27B6422200405F52 /* GBYCameraPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C108AC4927B6422200405F52 /* GBYCameraPickerController.m */; };
+		C108AC4E27B643BC00405F52 /* GBYCameraOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C108AC4D27B643BC00405F52 /* GBYCameraOverlayView.m */; };
+		C108AC5127B9F50200405F52 /* GBYCameraTopContainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C108AC5027B9F50200405F52 /* GBYCameraTopContainView.m */; };
+		C108AC5427B9F50F00405F52 /* GBYCameraBottomContainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C108AC5327B9F50F00405F52 /* GBYCameraBottomContainView.m */; };
+		C13B2EFC27B4A2DB00DF8D2F /* GBYHomePhotoManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B2EFB27B4A2DB00DF8D2F /* GBYHomePhotoManageViewController.m */; };
+		C13B2EFF27B4A3DC00DF8D2F /* GBYHomePhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B2EFE27B4A3DC00DF8D2F /* GBYHomePhotoCollectionViewCell.m */; };
+		C13B2F0227B4A6C200DF8D2F /* GBYPhotoTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B2F0127B4A6C200DF8D2F /* GBYPhotoTipView.m */; };
+		C13B2F0527B4A7EA00DF8D2F /* GBYPhotoTipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B2F0427B4A7EA00DF8D2F /* GBYPhotoTipTableViewCell.m */; };
+		C13B2F0927B4AFA900DF8D2F /* GBYSystemPermissionsManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B2F0827B4AFA900DF8D2F /* GBYSystemPermissionsManage.m */; };
+		C13B2F0C27B4FA6E00DF8D2F /* GBYPHPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B2F0B27B4FA6E00DF8D2F /* GBYPHPickerViewController.m */; };
+		C13B2F1027B503AB00DF8D2F /* UIView+GBYToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B2F0F27B503AB00DF8D2F /* UIView+GBYToastView.m */; };
+		C19274FA27B3894600492F3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C19274F927B3894600492F3D /* AppDelegate.m */; };
+		C192750527B3894B00492F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C192750427B3894B00492F3D /* Assets.xcassets */; };
+		C192750827B3894B00492F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C192750627B3894B00492F3D /* LaunchScreen.storyboard */; };
+		C192750B27B3894B00492F3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C192750A27B3894B00492F3D /* main.m */; };
+		C192751527B3894B00492F3D /* GBYPhotoManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C192751427B3894B00492F3D /* GBYPhotoManageTests.m */; };
+		C192751F27B3894B00492F3D /* GBYPhotoManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C192751E27B3894B00492F3D /* GBYPhotoManageUITests.m */; };
+		C192752127B3894B00492F3D /* GBYPhotoManageUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C192752027B3894B00492F3D /* GBYPhotoManageUITestsLaunchTests.m */; };
+		C192753327B389B100492F3D /* GBYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C192753227B389B100492F3D /* GBYBaseViewController.m */; };
+		C192753627B389BD00492F3D /* GBYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C192753527B389BD00492F3D /* GBYNavigationController.m */; };
+		C192753C27B38A5000492F3D /* GBYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C192753B27B38A5000492F3D /* GBYHomeViewController.m */; };
+		C192754027B38B4E00492F3D /* UIImage+ImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C192753F27B38B4E00492F3D /* UIImage+ImageColor.m */; };
+		C192754527B38CBD00492F3D /* GBYHomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C192754427B38CBD00492F3D /* GBYHomeDetailViewController.m */; };
+		C192754C27B3B7AC00492F3D /* GBYHomeDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C192754B27B3B7AC00492F3D /* GBYHomeDetailHeaderView.m */; };
+		C192755027B3B8E300492F3D /* GBYHomeDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C192754F27B3B8E300492F3D /* GBYHomeDetailModel.m */; };
+		C192755327B3BDC600492F3D /* GBYHomeDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C192755227B3BDC600492F3D /* GBYHomeDetailTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C192751127B3894B00492F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19274ED27B3894600492F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19274F427B3894600492F3D;
+			remoteInfo = GBYPhotoManage;
+		};
+		C192751B27B3894B00492F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19274ED27B3894600492F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19274F427B3894600492F3D;
+			remoteInfo = GBYPhotoManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3061DEAEDE755CB77D54F953 /* Pods-GBYPhotoManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBYPhotoManage.release.xcconfig"; path = "Target Support Files/Pods-GBYPhotoManage/Pods-GBYPhotoManage.release.xcconfig"; sourceTree = "<group>"; };
+		825E28917BDEEE271A2C8BEE /* libPods-GBYPhotoManage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GBYPhotoManage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C108AC3E27B60BE400405F52 /* GBYPickerLimitedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYPickerLimitedViewController.h; sourceTree = "<group>"; };
+		C108AC3F27B60BE400405F52 /* GBYPickerLimitedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYPickerLimitedViewController.m; sourceTree = "<group>"; };
+		C108AC4127B63F3A00405F52 /* GBYCustomCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYCustomCameraViewController.h; sourceTree = "<group>"; };
+		C108AC4227B63F3A00405F52 /* GBYCustomCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYCustomCameraViewController.m; sourceTree = "<group>"; };
+		C108AC4827B6422200405F52 /* GBYCameraPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYCameraPickerController.h; sourceTree = "<group>"; };
+		C108AC4927B6422200405F52 /* GBYCameraPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYCameraPickerController.m; sourceTree = "<group>"; };
+		C108AC4C27B643BC00405F52 /* GBYCameraOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYCameraOverlayView.h; sourceTree = "<group>"; };
+		C108AC4D27B643BC00405F52 /* GBYCameraOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYCameraOverlayView.m; sourceTree = "<group>"; };
+		C108AC4F27B9F50200405F52 /* GBYCameraTopContainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYCameraTopContainView.h; sourceTree = "<group>"; };
+		C108AC5027B9F50200405F52 /* GBYCameraTopContainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYCameraTopContainView.m; sourceTree = "<group>"; };
+		C108AC5227B9F50F00405F52 /* GBYCameraBottomContainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYCameraBottomContainView.h; sourceTree = "<group>"; };
+		C108AC5327B9F50F00405F52 /* GBYCameraBottomContainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYCameraBottomContainView.m; sourceTree = "<group>"; };
+		C13B2EFA27B4A2DB00DF8D2F /* GBYHomePhotoManageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYHomePhotoManageViewController.h; sourceTree = "<group>"; };
+		C13B2EFB27B4A2DB00DF8D2F /* GBYHomePhotoManageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYHomePhotoManageViewController.m; sourceTree = "<group>"; };
+		C13B2EFD27B4A3DC00DF8D2F /* GBYHomePhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYHomePhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		C13B2EFE27B4A3DC00DF8D2F /* GBYHomePhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYHomePhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		C13B2F0027B4A6C200DF8D2F /* GBYPhotoTipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYPhotoTipView.h; sourceTree = "<group>"; };
+		C13B2F0127B4A6C200DF8D2F /* GBYPhotoTipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYPhotoTipView.m; sourceTree = "<group>"; };
+		C13B2F0327B4A7EA00DF8D2F /* GBYPhotoTipTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYPhotoTipTableViewCell.h; sourceTree = "<group>"; };
+		C13B2F0427B4A7EA00DF8D2F /* GBYPhotoTipTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYPhotoTipTableViewCell.m; sourceTree = "<group>"; };
+		C13B2F0727B4AFA900DF8D2F /* GBYSystemPermissionsManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYSystemPermissionsManage.h; sourceTree = "<group>"; };
+		C13B2F0827B4AFA900DF8D2F /* GBYSystemPermissionsManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYSystemPermissionsManage.m; sourceTree = "<group>"; };
+		C13B2F0A27B4FA6E00DF8D2F /* GBYPHPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYPHPickerViewController.h; sourceTree = "<group>"; };
+		C13B2F0B27B4FA6E00DF8D2F /* GBYPHPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYPHPickerViewController.m; sourceTree = "<group>"; };
+		C13B2F0E27B503AB00DF8D2F /* UIView+GBYToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GBYToastView.h"; sourceTree = "<group>"; };
+		C13B2F0F27B503AB00DF8D2F /* UIView+GBYToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GBYToastView.m"; sourceTree = "<group>"; };
+		C19274F527B3894600492F3D /* GBYPhotoManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBYPhotoManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19274F827B3894600492F3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C19274F927B3894600492F3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C192750427B3894B00492F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C192750727B3894B00492F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C192750927B3894B00492F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C192750A27B3894B00492F3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C192751027B3894B00492F3D /* GBYPhotoManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBYPhotoManageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C192751427B3894B00492F3D /* GBYPhotoManageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYPhotoManageTests.m; sourceTree = "<group>"; };
+		C192751A27B3894B00492F3D /* GBYPhotoManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBYPhotoManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C192751E27B3894B00492F3D /* GBYPhotoManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYPhotoManageUITests.m; sourceTree = "<group>"; };
+		C192752027B3894B00492F3D /* GBYPhotoManageUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYPhotoManageUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C192753127B389B100492F3D /* GBYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYBaseViewController.h; sourceTree = "<group>"; };
+		C192753227B389B100492F3D /* GBYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYBaseViewController.m; sourceTree = "<group>"; };
+		C192753427B389BD00492F3D /* GBYNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYNavigationController.h; sourceTree = "<group>"; };
+		C192753527B389BD00492F3D /* GBYNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYNavigationController.m; sourceTree = "<group>"; };
+		C192753A27B38A5000492F3D /* GBYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYHomeViewController.h; sourceTree = "<group>"; };
+		C192753B27B38A5000492F3D /* GBYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYHomeViewController.m; sourceTree = "<group>"; };
+		C192753E27B38B4E00492F3D /* UIImage+ImageColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageColor.h"; sourceTree = "<group>"; };
+		C192753F27B38B4E00492F3D /* UIImage+ImageColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageColor.m"; sourceTree = "<group>"; };
+		C192754127B38B7600492F3D /* GBYHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYHeader.h; sourceTree = "<group>"; };
+		C192754227B38B8200492F3D /* GBYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYPrefixHeader.pch; sourceTree = "<group>"; };
+		C192754327B38CBD00492F3D /* GBYHomeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYHomeDetailViewController.h; sourceTree = "<group>"; };
+		C192754427B38CBD00492F3D /* GBYHomeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYHomeDetailViewController.m; sourceTree = "<group>"; };
+		C192754A27B3B7AC00492F3D /* GBYHomeDetailHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYHomeDetailHeaderView.h; sourceTree = "<group>"; };
+		C192754B27B3B7AC00492F3D /* GBYHomeDetailHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYHomeDetailHeaderView.m; sourceTree = "<group>"; };
+		C192754E27B3B8E300492F3D /* GBYHomeDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYHomeDetailModel.h; sourceTree = "<group>"; };
+		C192754F27B3B8E300492F3D /* GBYHomeDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYHomeDetailModel.m; sourceTree = "<group>"; };
+		C192755127B3BDC600492F3D /* GBYHomeDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBYHomeDetailTableViewCell.h; sourceTree = "<group>"; };
+		C192755227B3BDC600492F3D /* GBYHomeDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBYHomeDetailTableViewCell.m; sourceTree = "<group>"; };
+		FBCADAFCABA59548F65CB6A3 /* Pods-GBYPhotoManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBYPhotoManage.debug.xcconfig"; path = "Target Support Files/Pods-GBYPhotoManage/Pods-GBYPhotoManage.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19274F227B3894600492F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D563E40091540BB023BC450 /* libPods-GBYPhotoManage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C192750D27B3894B00492F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C192751727B3894B00492F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DBCEB2731C0C01F61D2A90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBCADAFCABA59548F65CB6A3 /* Pods-GBYPhotoManage.debug.xcconfig */,
+				3061DEAEDE755CB77D54F953 /* Pods-GBYPhotoManage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C108AC4427B6415D00405F52 /* CustomCamera */ = {
+			isa = PBXGroup;
+			children = (
+				C108AC4B27B6439300405F52 /* View */,
+				C108AC4127B63F3A00405F52 /* GBYCustomCameraViewController.h */,
+				C108AC4227B63F3A00405F52 /* GBYCustomCameraViewController.m */,
+				C108AC4827B6422200405F52 /* GBYCameraPickerController.h */,
+				C108AC4927B6422200405F52 /* GBYCameraPickerController.m */,
+			);
+			path = CustomCamera;
+			sourceTree = "<group>";
+		};
+		C108AC4B27B6439300405F52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C108AC4C27B643BC00405F52 /* GBYCameraOverlayView.h */,
+				C108AC4D27B643BC00405F52 /* GBYCameraOverlayView.m */,
+				C108AC4F27B9F50200405F52 /* GBYCameraTopContainView.h */,
+				C108AC5027B9F50200405F52 /* GBYCameraTopContainView.m */,
+				C108AC5227B9F50F00405F52 /* GBYCameraBottomContainView.h */,
+				C108AC5327B9F50F00405F52 /* GBYCameraBottomContainView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C13B2F0627B4AF8F00DF8D2F /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				C13B2F0727B4AFA900DF8D2F /* GBYSystemPermissionsManage.h */,
+				C13B2F0827B4AFA900DF8D2F /* GBYSystemPermissionsManage.m */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		C13B2F0D27B503AB00DF8D2F /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				C13B2F0E27B503AB00DF8D2F /* UIView+GBYToastView.h */,
+				C13B2F0F27B503AB00DF8D2F /* UIView+GBYToastView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		C19274EC27B3894600492F3D = {
+			isa = PBXGroup;
+			children = (
+				C19274F727B3894600492F3D /* GBYPhotoManage */,
+				C192751327B3894B00492F3D /* GBYPhotoManageTests */,
+				C192751D27B3894B00492F3D /* GBYPhotoManageUITests */,
+				C19274F627B3894600492F3D /* Products */,
+				03DBCEB2731C0C01F61D2A90 /* Pods */,
+				FB87BC0C65B6A5C3253C3C3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C19274F627B3894600492F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19274F527B3894600492F3D /* GBYPhotoManage.app */,
+				C192751027B3894B00492F3D /* GBYPhotoManageTests.xctest */,
+				C192751A27B3894B00492F3D /* GBYPhotoManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19274F727B3894600492F3D /* GBYPhotoManage */ = {
+			isa = PBXGroup;
+			children = (
+				C13B2F0D27B503AB00DF8D2F /* Toast */,
+				C13B2F0627B4AF8F00DF8D2F /* Manage */,
+				C192753D27B38B3B00492F3D /* Category */,
+				C192752F27B3898400492F3D /* Macro */,
+				C192752E27B3898300492F3D /* Main */,
+				C192752D27B3898200492F3D /* Base */,
+				C19274F827B3894600492F3D /* AppDelegate.h */,
+				C19274F927B3894600492F3D /* AppDelegate.m */,
+				C192750427B3894B00492F3D /* Assets.xcassets */,
+				C192750627B3894B00492F3D /* LaunchScreen.storyboard */,
+				C192750927B3894B00492F3D /* Info.plist */,
+				C192750A27B3894B00492F3D /* main.m */,
+			);
+			path = GBYPhotoManage;
+			sourceTree = "<group>";
+		};
+		C192751327B3894B00492F3D /* GBYPhotoManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				C192751427B3894B00492F3D /* GBYPhotoManageTests.m */,
+			);
+			path = GBYPhotoManageTests;
+			sourceTree = "<group>";
+		};
+		C192751D27B3894B00492F3D /* GBYPhotoManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C192751E27B3894B00492F3D /* GBYPhotoManageUITests.m */,
+				C192752027B3894B00492F3D /* GBYPhotoManageUITestsLaunchTests.m */,
+			);
+			path = GBYPhotoManageUITests;
+			sourceTree = "<group>";
+		};
+		C192752D27B3898200492F3D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C192753127B389B100492F3D /* GBYBaseViewController.h */,
+				C192753227B389B100492F3D /* GBYBaseViewController.m */,
+				C192753427B389BD00492F3D /* GBYNavigationController.h */,
+				C192753527B389BD00492F3D /* GBYNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C192752E27B3898300492F3D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C192753727B38A3A00492F3D /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C192752F27B3898400492F3D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				C192754127B38B7600492F3D /* GBYHeader.h */,
+				C192754227B38B8200492F3D /* GBYPrefixHeader.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		C192753727B38A3A00492F3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C192754D27B3B8D300492F3D /* Model */,
+				C192754627B3B76400492F3D /* View */,
+				C192753827B38A3F00492F3D /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C192753827B38A3F00492F3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C108AC4427B6415D00405F52 /* CustomCamera */,
+				C192753A27B38A5000492F3D /* GBYHomeViewController.h */,
+				C192753B27B38A5000492F3D /* GBYHomeViewController.m */,
+				C192754327B38CBD00492F3D /* GBYHomeDetailViewController.h */,
+				C192754427B38CBD00492F3D /* GBYHomeDetailViewController.m */,
+				C13B2EFA27B4A2DB00DF8D2F /* GBYHomePhotoManageViewController.h */,
+				C13B2EFB27B4A2DB00DF8D2F /* GBYHomePhotoManageViewController.m */,
+				C13B2F0A27B4FA6E00DF8D2F /* GBYPHPickerViewController.h */,
+				C13B2F0B27B4FA6E00DF8D2F /* GBYPHPickerViewController.m */,
+				C108AC3E27B60BE400405F52 /* GBYPickerLimitedViewController.h */,
+				C108AC3F27B60BE400405F52 /* GBYPickerLimitedViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C192753D27B38B3B00492F3D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C192753E27B38B4E00492F3D /* UIImage+ImageColor.h */,
+				C192753F27B38B4E00492F3D /* UIImage+ImageColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C192754627B3B76400492F3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C192754A27B3B7AC00492F3D /* GBYHomeDetailHeaderView.h */,
+				C192754B27B3B7AC00492F3D /* GBYHomeDetailHeaderView.m */,
+				C192755127B3BDC600492F3D /* GBYHomeDetailTableViewCell.h */,
+				C192755227B3BDC600492F3D /* GBYHomeDetailTableViewCell.m */,
+				C13B2EFD27B4A3DC00DF8D2F /* GBYHomePhotoCollectionViewCell.h */,
+				C13B2EFE27B4A3DC00DF8D2F /* GBYHomePhotoCollectionViewCell.m */,
+				C13B2F0027B4A6C200DF8D2F /* GBYPhotoTipView.h */,
+				C13B2F0127B4A6C200DF8D2F /* GBYPhotoTipView.m */,
+				C13B2F0327B4A7EA00DF8D2F /* GBYPhotoTipTableViewCell.h */,
+				C13B2F0427B4A7EA00DF8D2F /* GBYPhotoTipTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C192754D27B3B8D300492F3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C192754E27B3B8E300492F3D /* GBYHomeDetailModel.h */,
+				C192754F27B3B8E300492F3D /* GBYHomeDetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB87BC0C65B6A5C3253C3C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825E28917BDEEE271A2C8BEE /* libPods-GBYPhotoManage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19274F427B3894600492F3D /* GBYPhotoManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C192752427B3894B00492F3D /* Build configuration list for PBXNativeTarget "GBYPhotoManage" */;
+			buildPhases = (
+				199B3A082CAB713258F89F9F /* [CP] Check Pods Manifest.lock */,
+				C19274F127B3894600492F3D /* Sources */,
+				C19274F227B3894600492F3D /* Frameworks */,
+				C19274F327B3894600492F3D /* Resources */,
+				24B661A2647D9FC14F92E336 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBYPhotoManage;
+			productName = GBYPhotoManage;
+			productReference = C19274F527B3894600492F3D /* GBYPhotoManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C192750F27B3894B00492F3D /* GBYPhotoManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C192752727B3894B00492F3D /* Build configuration list for PBXNativeTarget "GBYPhotoManageTests" */;
+			buildPhases = (
+				C192750C27B3894B00492F3D /* Sources */,
+				C192750D27B3894B00492F3D /* Frameworks */,
+				C192750E27B3894B00492F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C192751227B3894B00492F3D /* PBXTargetDependency */,
+			);
+			name = GBYPhotoManageTests;
+			productName = GBYPhotoManageTests;
+			productReference = C192751027B3894B00492F3D /* GBYPhotoManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C192751927B3894B00492F3D /* GBYPhotoManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C192752A27B3894B00492F3D /* Build configuration list for PBXNativeTarget "GBYPhotoManageUITests" */;
+			buildPhases = (
+				C192751627B3894B00492F3D /* Sources */,
+				C192751727B3894B00492F3D /* Frameworks */,
+				C192751827B3894B00492F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C192751C27B3894B00492F3D /* PBXTargetDependency */,
+			);
+			name = GBYPhotoManageUITests;
+			productName = GBYPhotoManageUITests;
+			productReference = C192751A27B3894B00492F3D /* GBYPhotoManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19274ED27B3894600492F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C19274F427B3894600492F3D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C192750F27B3894B00492F3D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C19274F427B3894600492F3D;
+					};
+					C192751927B3894B00492F3D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C19274F427B3894600492F3D;
+					};
+				};
+			};
+			buildConfigurationList = C19274F027B3894600492F3D /* Build configuration list for PBXProject "GBYPhotoManage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19274EC27B3894600492F3D;
+			productRefGroup = C19274F627B3894600492F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19274F427B3894600492F3D /* GBYPhotoManage */,
+				C192750F27B3894B00492F3D /* GBYPhotoManageTests */,
+				C192751927B3894B00492F3D /* GBYPhotoManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19274F327B3894600492F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C192750827B3894B00492F3D /* LaunchScreen.storyboard in Resources */,
+				C192750527B3894B00492F3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C192750E27B3894B00492F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C192751827B3894B00492F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		199B3A082CAB713258F89F9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBYPhotoManage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24B661A2647D9FC14F92E336 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GBYPhotoManage/Pods-GBYPhotoManage-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GBYPhotoManage/Pods-GBYPhotoManage-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GBYPhotoManage/Pods-GBYPhotoManage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19274F127B3894600492F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C192755327B3BDC600492F3D /* GBYHomeDetailTableViewCell.m in Sources */,
+				C192754527B38CBD00492F3D /* GBYHomeDetailViewController.m in Sources */,
+				C19274FA27B3894600492F3D /* AppDelegate.m in Sources */,
+				C192753327B389B100492F3D /* GBYBaseViewController.m in Sources */,
+				C108AC4027B60BE400405F52 /* GBYPickerLimitedViewController.m in Sources */,
+				C108AC4E27B643BC00405F52 /* GBYCameraOverlayView.m in Sources */,
+				C192753C27B38A5000492F3D /* GBYHomeViewController.m in Sources */,
+				C192753627B389BD00492F3D /* GBYNavigationController.m in Sources */,
+				C108AC5427B9F50F00405F52 /* GBYCameraBottomContainView.m in Sources */,
+				C13B2F1027B503AB00DF8D2F /* UIView+GBYToastView.m in Sources */,
+				C108AC4327B63F3A00405F52 /* GBYCustomCameraViewController.m in Sources */,
+				C13B2EFF27B4A3DC00DF8D2F /* GBYHomePhotoCollectionViewCell.m in Sources */,
+				C192750B27B3894B00492F3D /* main.m in Sources */,
+				C13B2EFC27B4A2DB00DF8D2F /* GBYHomePhotoManageViewController.m in Sources */,
+				C108AC5127B9F50200405F52 /* GBYCameraTopContainView.m in Sources */,
+				C108AC4A27B6422200405F52 /* GBYCameraPickerController.m in Sources */,
+				C192754C27B3B7AC00492F3D /* GBYHomeDetailHeaderView.m in Sources */,
+				C192754027B38B4E00492F3D /* UIImage+ImageColor.m in Sources */,
+				C13B2F0227B4A6C200DF8D2F /* GBYPhotoTipView.m in Sources */,
+				C13B2F0927B4AFA900DF8D2F /* GBYSystemPermissionsManage.m in Sources */,
+				C13B2F0C27B4FA6E00DF8D2F /* GBYPHPickerViewController.m in Sources */,
+				C192755027B3B8E300492F3D /* GBYHomeDetailModel.m in Sources */,
+				C13B2F0527B4A7EA00DF8D2F /* GBYPhotoTipTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C192750C27B3894B00492F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C192751527B3894B00492F3D /* GBYPhotoManageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C192751627B3894B00492F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C192751F27B3894B00492F3D /* GBYPhotoManageUITests.m in Sources */,
+				C192752127B3894B00492F3D /* GBYPhotoManageUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C192751227B3894B00492F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19274F427B3894600492F3D /* GBYPhotoManage */;
+			targetProxy = C192751127B3894B00492F3D /* PBXContainerItemProxy */;
+		};
+		C192751C27B3894B00492F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19274F427B3894600492F3D /* GBYPhotoManage */;
+			targetProxy = C192751B27B3894B00492F3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C192750627B3894B00492F3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C192750727B3894B00492F3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C192752227B3894B00492F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C192752327B3894B00492F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C192752527B3894B00492F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCADAFCABA59548F65CB6A3 /* Pods-GBYPhotoManage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4Q52BKBAR;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GBYPhotoManage/Macro/GBYPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GBYPhotoManage/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "请允许App使用您的相机功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要您的同意,才能访问麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "请允许APP保存图片到相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "请允许APP访问您的相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binSty.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C192752627B3894B00492F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3061DEAEDE755CB77D54F953 /* Pods-GBYPhotoManage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4Q52BKBAR;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GBYPhotoManage/Macro/GBYPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GBYPhotoManage/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "请允许App使用您的相机功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要您的同意,才能访问麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "请允许APP保存图片到相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "请允许APP访问您的相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binSty.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C192752827B3894B00492F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binSty.mac.GBYPhotoManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBYPhotoManage.app/GBYPhotoManage";
+			};
+			name = Debug;
+		};
+		C192752927B3894B00492F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binSty.mac.GBYPhotoManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBYPhotoManage.app/GBYPhotoManage";
+			};
+			name = Release;
+		};
+		C192752B27B3894B00492F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binSty.mac.GBYPhotoManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GBYPhotoManage;
+			};
+			name = Debug;
+		};
+		C192752C27B3894B00492F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binSty.mac.GBYPhotoManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GBYPhotoManage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19274F027B3894600492F3D /* Build configuration list for PBXProject "GBYPhotoManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C192752227B3894B00492F3D /* Debug */,
+				C192752327B3894B00492F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C192752427B3894B00492F3D /* Build configuration list for PBXNativeTarget "GBYPhotoManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C192752527B3894B00492F3D /* Debug */,
+				C192752627B3894B00492F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C192752727B3894B00492F3D /* Build configuration list for PBXNativeTarget "GBYPhotoManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C192752827B3894B00492F3D /* Debug */,
+				C192752927B3894B00492F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C192752A27B3894B00492F3D /* Build configuration list for PBXNativeTarget "GBYPhotoManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C192752B27B3894B00492F3D /* Debug */,
+				C192752C27B3894B00492F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C19274ED27B3894600492F3D /* Project object */;
+}

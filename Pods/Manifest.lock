@@ -1,0 +1,28 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJExtension (3.4.1)
+  - Toast (4.0.0)
+  - TZImagePickerController (3.7.2)
+
+DEPENDENCIES:
+  - Masonry
+  - MJExtension
+  - Toast
+  - TZImagePickerController
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MJExtension
+    - Toast
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TZImagePickerController: 0f926234c46362d3c4ed128832b6da59b2d9917e
+
+PODFILE CHECKSUM: 11b4252db6dc309693c62ab1a5040d2f0a459cc1
+
+COCOAPODS: 1.11.2
